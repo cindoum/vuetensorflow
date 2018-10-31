@@ -3,7 +3,7 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        vuenuxtensorflow
+        Vue using Nuxt and Tensorflow.js
       </h1>
       <h2 class="subtitle">
         Tensorflow js simple project
@@ -26,15 +26,15 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
-import TensorflowExample from '~/components/TensorflowExample.vue'
+import AppLogo from "~/components/AppLogo.vue";
+import TensorflowExample from "~/components/TensorflowExample.vue";
 
 export default {
   components: {
     AppLogo,
     TensorflowExample
   }
-}
+};
 </script>
 
 <style>
@@ -47,7 +47,8 @@ export default {
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 300;
   font-size: 100px;
