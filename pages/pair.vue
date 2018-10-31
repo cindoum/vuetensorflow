@@ -1,14 +1,8 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
-      <h1 class="title">
-        Vue | Nuxt | Tensorflow
-      </h1>
-      <h2 class="subtitle">
-        <nuxt-link to="/results">Results</nuxt-link> | 
-        <nuxt-link to="/Pair">Pair</nuxt-link>
-      </h2>
+      <header-menu></header-menu>
+      <tensorflow-example></tensorflow-example>
     </div>
   </section>
 </template>
@@ -16,11 +10,13 @@
 <script>
 import AppLogo from "~/components/AppLogo.vue";
 import TensorflowExample from "~/components/TensorflowExample.vue";
+import HeaderMenu from "~/components/HeaderMenu.vue";
 
 export default {
   components: {
     AppLogo,
-    TensorflowExample
+    TensorflowExample,
+    HeaderMenu
   }
 };
 </script>
